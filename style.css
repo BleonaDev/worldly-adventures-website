@@ -533,7 +533,7 @@ text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
   }
 
   .card-packages img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
   #container2{

@@ -119,8 +119,6 @@
     transition: all 0.3s ease;
 
 }
-
-
  #ourpackages {
      text-align: center;
      color:rgba(59, 161, 215, 0.94);
@@ -152,7 +150,6 @@
   transform: scale(1.05);
     filter: brightness(1.2);
 }
-
 .card-packages .btn{
     position:absolute;
     top: 545px;
@@ -166,8 +163,6 @@
     font-size:large;
     font-weight:bolder;
 }
-
-
 .card-packages p{
     font-family:"Times New Roman";
     font-size:18px;
@@ -204,19 +199,19 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
     filter: brightness(1.2);
 }
 .container2 button {
-    text-align: center;
-    margin: auto;
-    position: absolute;
-    bottom: 7%;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 1px solid #050552;
-    color: white;
-    background: linear-gradient(90deg, #3A0CA3, #4361EE);
-    font-family: "Times New Roman";
-    font-size: large;
-    font-weight: bolder;
-    width: 60%;
+    position:absolute;
+    bottom: 10px;
+    left: 270px;
+    transform: translate(-50%, -50%);
+    border:1px solid #050552;
+    margin:auto;
+  color: white;
+  background: linear-gradient(90deg, #3A0CA3, #4361EE);
+  font-family: "Times New Roman";
+  font-weight: bolder;
+  width: 30%;
+  text-decoration:none;
+ transition:transform 0.3s ease;
 }
 
 #button {
@@ -234,9 +229,6 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
     color:white;
     font-size:17px;
 }
-
-
-
 .containerparis img{
     border-radius:8px;
     width:95%;
@@ -531,18 +523,31 @@ text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
     width: 90%;
     margin-bottom: 15px;
   }
-
   .card-packages img {
     max-width: 100%;
     height: auto;
   }
-  #container2{
- height:350px;
+  #tipsandtricks{
+     padding:100px 70px 100px 80px;
+     height:300px;
+     border-radius:30px;
   }
-   .container2 img{
-    width:400px;
-    height:550px;
-   }
+  .container2{
+ height:300px;
+ max-width:100%;
+  }
+  .container2 img{
+    height:430px;
+ width:350px;
+  }
+  .container2 button {
+    bottom: -130px;
+    left: 230px;
+  }
+  #bottom{
+    margin:50px 0 auto;
+    max-width:100%;
+  }
 }
 @media (min-width: 768px) {
   .nav-link {

@@ -246,7 +246,7 @@ text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
 .container1paris{
     position:relative;
      display:block;
-     width:850px;
+     max-width:850px;
      border:none;
      border-radius:13px;
      margin: 4px;
@@ -262,8 +262,7 @@ text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
 
 .booking-box{
     background-color:#f0f0f0;
-    position:absolute;
-    left:960px;
+   margin:auto;
     border:none;
  width:300px;
       box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
@@ -288,11 +287,9 @@ text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
 .form-control{
     border:dotted 1px darkblsue;
 }
-.container1paris .helpbox{
+ .helpbox{
     background-color:#f0f0f0;
-    position:absolute;
-    left:960px;
-    top:400px;
+    margin:auto;
     border:none;
     padding:9px;
  width:300px;
@@ -312,9 +309,7 @@ background: linear-gradient(90deg, #3A0CA3, #4361EE);
 }
 #react-clock-root{
  background-color:#a3c9f1;
-    position:absolute;
-    left:960px;
-    top:1350px;
+    margin:auto;
     border:none;
     padding:9px;
  width:300px;
@@ -337,7 +332,7 @@ background: linear-gradient(90deg, #3A0CA3, #4361EE);
     font-weight:bolder;
     font-size:19px;
     padding:5px;
-    margin:6px 550px;
+    margin-left:170px;
 
 }
 #whatsapp:hover {
@@ -369,7 +364,7 @@ background: linear-gradient(90deg, #3A0CA3, #4361EE);
     position:relative;
      display:block;
      height:760px;
-     width:650px;
+     max-width:650px;
      border:none;
      border-radius:13px;
      margin: 4px;
@@ -508,20 +503,30 @@ text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
     max-width:100%;
     border-radius:30px;
   }
-  .carousel-inner .row {
+  #container1{
+    max-width:100%;
+  }
+    .carousel-inner .row {
     flex-direction: column;
     align-items: center;
   }
+
+  .carousel-inner .col-md-4 {
+    width: 90%;
+    margin: 0 auto; 
+  }
   .card-packages {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  height:auto;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+  }
   .carousel-inner .col-md-4 {
     width: 90%;
     margin-bottom: 15px;
+    margin-right:20px;
   }
   .card-packages img {
     max-width: 100%;
@@ -546,6 +551,17 @@ text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
   }
   #bottom{
     margin:50px 0 auto;
+    max-width:100%;
+  }
+  .containerparis{
+    max-width:100%;
+  }
+  .container1paris{
+    width:100%;
+   max-width:100%;
+
+  }
+  .trickscard{
     max-width:100%;
   }
 }

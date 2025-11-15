@@ -1,3 +1,6 @@
+body, html {
+    overflow-x: hidden;
+}
 .navbar {
   background-color: #02023d;
 }
@@ -229,19 +232,24 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
     color:white;
     font-size:17px;
 }
+.row img{
+  max-width:100%;
+  height:auto;
+  margin:5px;
+}
 .containerparis img{
     border-radius:8px;
     width:95%;
 }
 .containerparis h1{
     position:absolute;
-    bottom:1px;
-    left:31%;
+    bottom:1%;
+    left:50%;
     font-family:"Times New Roman";
     font-weight:bolder;
     color: black;
 text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
-    margin:5px;
+ transform: translate(-50%, -50%);
 }
 .container1paris{
     position:relative;
@@ -283,7 +291,6 @@ text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
   transform: scale(1.05);
     filter: brightness(1.2);
 }
-
 .form-control{
     border:dotted 1px darkblsue;
 }
@@ -322,6 +329,10 @@ background: linear-gradient(90deg, #3A0CA3, #4361EE);
       font-family: "Playfair Display";
 }
 #whatsapp{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:auto;
     background-color: #57b657;
     color:white;
      width:230px;
@@ -332,8 +343,7 @@ background: linear-gradient(90deg, #3A0CA3, #4361EE);
     font-weight:bolder;
     font-size:19px;
     padding:5px;
-    margin-left:170px;
-
+    text-decoration:none !important;
 }
 #whatsapp:hover {
   transform: scale(1.05);
@@ -359,91 +369,93 @@ background: linear-gradient(90deg, #3A0CA3, #4361EE);
 .customcarousel .card-packages p{
     font-size:17px;
 }
-
 .trickscard{
-    position:relative;
-     display:block;
-     height:760px;
-     max-width:650px;
-     border:none;
-     border-radius:13px;
-     margin: 4px;
-      background-color: #f9f9f9;
-     padding:5px;
-     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
-              -5px -5px 15px rgba(255, 255, 255, 0.2);
-
+  position:relative;
+  display:block;
+  height:790px !important;
+  max-width:650px;
+  border:none;
+  border-radius:13px;
+  margin: 4px;
+  background-color: #f9f9f9;
+  padding:5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
+        -5px -5px 15px rgba(255, 255, 255, 0.2);
+}
+.trickscard img {
+  width: 100%;        
+  max-width: 450px;   
+  height: auto;  
 }
 #h1tricks{
     font-family:"Times New Roman";
     font-weight:bolder;
     color: #02023d;
-text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
     text-align:center;
 }
 .contactcard{
-  position:relative;
-     display:block;
-     height:250px;
-     width:650px;
-     border:none;
-     border-radius:4px;
-     margin: 4px;
-      background-color:#A8E6A3  ;
-     padding:5px;
-     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
-              -5px -5px 15px rgba(255, 255, 255, 0.2);
+    position:relative;
+    display:block;
+    height:250px;
+    max-width:650px;
+    border:none;
+    border-radius:4px;
+    margin: 4px;
+    background-color:#A8E6A3  ;
+    padding:5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
+            -5px -5px 15px rgba(255, 255, 255, 0.2);
 }
 .contactcard h1{
-font-family:"Times New Roman";
+    font-family:"Times New Roman";
     font-weight:bolder;
     color: black;
-text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
     text-align:center;
 }
 .contact1card{
-   position:relative;
+    position:relative;
     margin:auto;
-     display:block;
-     border:none;
-    width:850px;
-      background-color: #A8E6A3 ;
-     padding:5px;
-     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
-              -5px -5px 15px rgba(255, 255, 255, 0.2);
+    display:block;
+    border:none;
+    max-width:850px;
+    background-color: #A8E6A3 ;
+    padding:5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
+          -5px -5px 15px rgba(255, 255, 255, 0.2);
 }
 .contact1card h1{
-font-family:"Times New Roman";
+    font-family:"Times New Roman";
     font-weight:bolder;
     color: black;
-text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
     text-align:center;
 }
-
 .whyus{
     background-color: #b3e5fc;
-     position:relative;
+    position:relative;
     margin:auto;
-     display:block;
-     border:none;
-    width:1000px;
-     padding:5px;
-     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
-              -5px -5px 15px rgba(255, 255, 255, 0.2);
+    display:block;
+    border:none;
+    max-width:1000px;
+    padding:5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
+        -5px -5px 15px rgba(255, 255, 255, 0.2);
 
 }
 .whyus h1{
- font-family:"Times New Roman";
+    font-family:"Times New Roman";
     font-weight:bolder;
     color: black;
-text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
     text-align:center;
 }
 .whyus p{
      font-family: "Playfair Display";
 }
 #aboutus1{
-  font-family: "Playfair Display";
+    font-family: "Playfair Display";
     text-align:center;
     font-weight:bolder;
 }
@@ -476,7 +488,7 @@ text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
     font-size:20px;
     font-family:"Times New Roman";
     border:5px outset rgba(49, 152, 185, 0.94);
-     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6),
               -5px -5px 15px rgba(255, 255, 255, 0.2);
     margin:auto;
  }
@@ -504,7 +516,7 @@ text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
     border-radius:30px;
   }
   #container1{
-    max-width:100%;
+    max-width:100% !important;
   }
     .carousel-inner .row {
     flex-direction: column;
@@ -561,7 +573,24 @@ text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
    max-width:100%;
 
   }
+  #whatsapp{
+    display:flex;
+    justify-content:center;
+  }
   .trickscard{
+    max-width:100%;
+  }
+  .trickscard img{
+    max-width:100% !important;
+  }
+  .col-md-3{
+    max-width:100%;
+  }
+  .contact1card,
+  .contactcard{
+    max-width:100%;
+  }
+  .whyus{
     max-width:100%;
   }
 }

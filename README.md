@@ -1,4 +1,4 @@
-# 🌍 Worldly Adventures
+#  Worldly Adventures
 
 Welcome to **Worldly Adventures**! This is my very first web project, built entirely from scratch.
 The goal was to create a simple, responsive, and aesthetically pleasing travel site to showcase travel destinations around the world.
@@ -8,23 +8,23 @@ The goal was to create a simple, responsive, and aesthetically pleasing travel s
 ## 🔗 Live Demo
 
 You can view the deployed site here:
-👉 **[Worldly Adventures Live](https://worldy-adventures.netlify.app/)**
+ **[Worldly Adventures](https://worldy-adventures.netlify.app/)**
 
 ---
 
-## 📌 Project Highlights & UI Focus
+## - Project Highlights & UI Focus
 
 Since this is my first project, I spent a lot of time focusing on the **UI details and layout balance**:
 
-* **Custom Grid Layout:** Organized the top visited destinations into a neat 2x2 grid right alongside the main section title.
-* **Visual Polish:** Added custom hover scale transitions, soft card shadows, and custom button gradients for a clean aesthetic.
-* **Interactive Hero Slider:** A Bootstrap carousel presenting high-resolution imagery for featured places.
-* **Live World Clock:** Built with pure Vanilla JS to show real-time clocks for different locations without using external libraries.
+* **Visual Polish:** Added high-resolution images,got real information on the tourist attractions,blog site,hover scale transitions, and custom gradients for a clean aesthetic.
+* **Interactive Carousel:** A Bootstrap carousel presenting high-resolution imagery for the packages.
+* **Interactive Hero Slider:** A Bootstrap carousel presenting high-resolution imagery for featured places at the top of the website.
+* **Live World Clock:** Built with Vanilla JS to show real-time clocks for different locations without using external libraries.
 * **Responsive Layout:** Structured to ensure elements adapt smoothly across different screen sizes.
 
 ---
 
-## 🛠️ Built With
+## - Built With
 
 * **HTML5** — Semantic structure.
 * **CSS3** — Custom styling, positioning, hover effects, and colors.
@@ -33,7 +33,7 @@ Since this is my first project, I spent a lot of time focusing on the **UI detai
 
 ---
 
-## 💻 How to Run Locally
+## - How to Run Locally
 
 1. Clone this repository:
    ```bash
